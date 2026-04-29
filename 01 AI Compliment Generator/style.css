@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    font-family:Arial;
+}
+
+.card{
+    background:rgba(255,255,255,.15);
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    color:white;
+    width:350px;
+    backdrop-filter:blur(15px);
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    background:white;
+    color:#2575fc;
+    font-weight:bold;
+}

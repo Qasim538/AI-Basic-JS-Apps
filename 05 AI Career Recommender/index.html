@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Career Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h1>AI Career Recommender</h1>
+      <p>What best describes you?</p>
+
+      <select id="careerType">
+        <option value="">Choose one...</option>
+        <option value="creative">Creative</option>
+        <option value="coding">Coding</option>
+        <option value="helping">Helping People</option>
+        <option value="business">Business Minded</option>
+        <option value="science">Science & Research</option>
+      </select>
+
+      <button id="recommendBtn">Find Career</button>
+
+      <div id="result">
+        <span class="emoji">🤖</span>
+        <p>Your AI career recommendation will appear here...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
